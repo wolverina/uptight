@@ -1,1 +1,10 @@
-/* Your Custom CSS Declarations Here */
+/* Your Custom CSS Declarations Here
+
+Example:
+This removes that nosy grid of your most visited sites on the new tab page.
+
+#mv-tiles {
+  display: none !important;
+}
+
+*/

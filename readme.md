@@ -2,7 +2,7 @@
 
 _Uptight adds back the ability to maintain user stylesheets in Chrome. This functionality was [stripped out](https://code.google.com/p/chromium/issues/detail?id=318566) in version 32._
 
-_This is different than the custom stylesheet extensions authored prior to Chrome 32, as those provide easy access to the Custom.css file, which Chrome ignores. This extension provides a Custom.css file that Chrome 32+ does not ignore._
+_This is different than the custom stylesheet extensions authored prior to Chrome 32, as those provide easy access to the Custom.css file, which Chrome now ignores. This extension provides a Custom.css file that Chrome 32+ does not ignore._
 
 ## Installation
 
@@ -14,7 +14,7 @@ _This is different than the custom stylesheet extensions authored prior to Chrom
 
 ## Usage
 
-1. Place your custom styles within the Custom.css file included with this extension.
+1. Include your custom styles within the Custom.css file included with this extension.
 2. Go to chrome://extensions
 3. Reload the extension by selecting the "Reload" link underneath its permissions data. This will update the Custom.css file.
 
