@@ -1,0 +1,17 @@
+{
+  "name": "Uptight",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "User Stylesheet functionality",
+  "author": "Chloe Weil",
+  "icons": {
+    "16": "src/icn-16.png",
+    "48": "src/icn-48.png",
+    "128": "src/icn-128.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["src/uptight.js"],
+    "css": ["Custom.css"]
+  }]
+}
